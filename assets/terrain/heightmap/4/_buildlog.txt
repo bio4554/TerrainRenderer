@@ -1,0 +1,52 @@
+STARTLOG
+GAEA	1.3.2.7
+
+START	2025-03-12 19:45:10Z
+END	2025-03-12 19:45:24Z
+TOTAL	0:00:13
+SECONDS	13
+
+RESOLUTION	1024x1024
+BUCKET SIZE	1024x1024
+
+NODE	Ridge	0.000
+NODE	Erosion	3.457
+NODE	Erosion	0.515
+NODE	Normal Map	0.000
+NODE	Blur	0.000
+NODE	Mountain	1.248
+NODE	Transform	0.067
+NODE	Combine	0.000
+NODE	Texture	0.000
+NODE	SatMaps	0.000
+NODE	Slope	0.000
+NODE	SatMaps	0.000
+NODE	Combine	0.000
+NODE	Height	0.000
+NODE	SatMaps	0.000
+NODE	Combine	0.000
+NODE	Rivers	0.910
+NODE	Protrusion	0.000
+NODE	SatMaps	0.000
+NODE	Combine	0.000
+NODE	Normal Map	0.000
+NODE	HydroFix	0.439
+NODE	Fluvial	1.773
+NODE	Mountain	1.225
+NODE	Transform	0.136
+NODE	Combine	0.056
+NODE	Mountain	1.175
+NODE	Transform	0.060
+NODE	Combine	0.005
+NODE	Mountain	1.297
+NODE	Transform	0.069
+NODE	Combine	0.004
+NODE	Chokepoint	0.000
+NODE	Flow	0.386
+NODE	SatMaps	0.000
+NODE	Combine	0.000
+NODE	Fx	0.020
+NODE	Hydro	0.526
+
+OUTPUT	C:\Users\bio4554\source\repos\AlienCrusade\assets\terrain\heightmap\4
+ENDLOG

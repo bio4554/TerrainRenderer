@@ -1,0 +1,27 @@
+{
+    "meshAssets": [],
+    "textureAssets": [
+        {
+            "extentDepth": 1,
+            "extentHeight": 512,
+            "extentWidth": 512,
+            "format": 0,
+            "id": 0,
+            "mipLevels": 9,
+            "path": "textures/grass25.dds",
+            "size": 1398224,
+            "type": 0
+        },
+        {
+            "extentDepth": 1,
+            "extentHeight": 512,
+            "extentWidth": 512,
+            "format": 0,
+            "id": 1,
+            "mipLevels": 9,
+            "path": "textures/dirtwastes01.dds",
+            "size": 1398224,
+            "type": 0
+        }
+    ]
+}
