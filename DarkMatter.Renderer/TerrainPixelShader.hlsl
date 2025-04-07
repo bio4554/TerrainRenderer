@@ -16,7 +16,7 @@ float4 hash4(float2 p)
     return frac(sin(d) * 103.0);
 }
 
-float4 UvFuck(float2 uv, Texture2D tex)
+float4 UvShuffle(float2 uv, Texture2D tex)
 {
     int2 iuv = int2(floor(uv));
     float2 fuv = frac(uv);
@@ -90,10 +90,10 @@ float4 GetSplatColor(float2 uv)
     float4 splatSample = splatMap.Sample(linearSampler, uv);
     float2 scaledUv = uv * 1000;
     float3 finalColor = float3(0, 0, 0);
-    finalColor = finalColor + ((UvFuck(scaledUv, splat1) * splatSample.x).xyz);
-    finalColor = finalColor + ((UvFuck(scaledUv, splat2) * splatSample.y).xyz);
-    finalColor = finalColor + ((UvFuck(scaledUv, splat3) * splatSample.z).xyz);
-    finalColor = finalColor + ((UvFuck(scaledUv, splat4) * splatSample.w).xyz);
+    finalColor = finalColor + ((UvShuffle(scaledUv, splat1) * splatSample.x).xyz);
+    finalColor = finalColor + ((UvShuffle(scaledUv, splat2) * splatSample.y).xyz);
+    finalColor = finalColor + ((UvShuffle(scaledUv, splat3) * splatSample.z).xyz);
+    finalColor = finalColor + ((UvShuffle(scaledUv, splat4) * splatSample.w).xyz);
     return float4(finalColor, 1);
 }
 
